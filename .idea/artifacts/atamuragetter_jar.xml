@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="atamuragetter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/atamuragetter_jar</output-path>
+    <root id="archive" name="atamuragetter.jar">
+      <element id="module-output" name="atamuragetter" />
+    </root>
+  </artifact>
+</component>
