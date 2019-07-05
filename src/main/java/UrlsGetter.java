@@ -28,6 +28,7 @@ public class UrlsGetter {
     public static ArrayList<String> getPages(String html){
         Pattern pattern = Pattern.compile("http:\\/\\/expert.atamura.kz\\/storage\\/media\\/[0-9]*\\/pages\\/page-[0-9]*.jpg");
         Matcher matcher = pattern.matcher(html);
+
         ArrayList<String> matches = new ArrayList<>();
         while(matcher.find())
         {
